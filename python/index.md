@@ -10,10 +10,10 @@
 
 | リポジトリ名 | 対象デバイス | 接続タイプ | 概要 | 主な機能 | 動作環境 |
 |---|---|---|---|---|---|
-| [TR3_LAN_Python](https://github.com/TamaruNorio/TR3_LAN_Python) | TR3XMシリーズ (HF帯) | LAN (TCP/IP) | TR3XMシリーズをLAN経由で制御する最小サンプル。安定した受信パースと典型フローを学ぶことを目的としています。 | ROMバージョン確認、コマンドモード切替、アンチコリジョン設定、アンテナ切替、Inventory2 (タグ読取)、ブザー制御、ログ出力 | Windows 10以降、Python 3.9+ (標準ライブラリのみ) |
+| [TR3_LAN_Python](https://github.com/TamaruNorio/TR3_LAN_Python) | TR3シリーズ (HF帯) | LAN (TCP/IP) | TR3シリーズをLAN経由で制御する最小サンプル。安定した受信パースと典型フローを学ぶことを目的としています。 | ROMバージョン確認、コマンドモード切替、アンチコリジョン設定、アンテナ切替、Inventory2 (タグ読取)、ブザー制御、ログ出力 | Windows 10以降、Python 3.9+ (標準ライブラリのみ) |
 | [TR3_USB_Python](https://github.com/TamaruNorio/TR3_USB_Python) | TR3シリーズ (HF帯) | USB (仮想COM) | TR3シリーズをUSBシリアル接続で制御するPythonサンプル。 | ROMバージョン確認、コマンドモード切替、Inventory2 (タグ読取)、ブザー制御 | Windows 10/11、Python 3.8+、pyserial |
-| [UTR_LAN_Python](https://github.com/TamaruNorio/UTR_LAN_Python) | UTR-S201シリーズ (UHF帯) | LAN (TCP) | UTR-S201シリーズをLAN経由で制御するサンプル。USB版の構造を踏襲し、通信層のみTCPに置き換えられています。 | ROMバージョン確認、コマンドモード切替、送信出力値/周波数チャンネル取得、Inventory (タグ読取)、RSSI/PC+UII抽出、ブザー制御、ログ保存 | Windows 10/11、Python 3.10+ (標準ライブラリのみ) |
-| [UTR_USB_Python](https://github.com/TamaruNorio/UTR_USB_Python) | UTR-S201/202シリーズ (UHF帯) | USB (仮想COM) | UTR-S201/202シリーズをUSBシリアル接続で制御するPythonサンプル。 | タグ読取結果のコンソール表示 | Windows 10/11、Python 3.8+、pyserial |
+| [UTR_LAN_Python](https://github.com/TamaruNorio/UTR_LAN_Python) | UTR-S20xシリーズ (UHF帯) | LAN (TCP) | UTR-S20xシリーズをLAN経由で制御するサンプル。USB版の構造を踏襲し、通信層のみTCPに置き換えられています。 | ROMバージョン確認、コマンドモード切替、送信出力値/周波数チャンネル取得、Inventory (タグ読取)、RSSI/PC+UII抽出、ブザー制御、ログ保存 | Windows 10/11、Python 3.10+ (標準ライブラリのみ) |
+| [UTR_USB_Python](https://github.com/TamaruNorio/UTR_USB_Python) | UTR-S20xシリーズ (UHF帯) | USB (仮想COM) | UTR-S20xシリーズをUSBシリアル接続で制御するPythonサンプル。 | タグ読取結果のコンソール表示 | Windows 10/11、Python 3.8+、pyserial |
 
 ## 共通セットアップと実行方法
 
